@@ -23,7 +23,8 @@ public class Launchbrowser {
 			String aa = driver.findElement(By.xpath("//label")).getText();
 			System.out.println(aa);
 			  System.out.println("***************C L O S E B R O W S E R **********************");
- driver.quit();
+			  System.out.println("***************2nd C L O S E B R O W S E R **********************");
+			  driver.quit();
  }
  
  catch(Exception e)

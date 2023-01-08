@@ -6,7 +6,7 @@ public class FirstTest {
   @Test
   public void f() {
   System.out.println("First TesntNG");
-  }
+  }	
   
   
 }
