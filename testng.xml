@@ -6,6 +6,7 @@
       
       <class name="com.stc.jan2023.FirstTest"/>
  <class name="com.stc.jan2023.Launchbrowser"/>
+ <class name="com.stc.jan2023.Third"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
