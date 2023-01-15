@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Test" parallel = "classes" >
     <classes>
-      
+       <class name="com.stc.jan2023.Third"/>
+      <class name="com.stc.jan2023.Priority"/>
+      <class name="com.stc.jan2023.Launchbrowser"/>
+      <class name="com.stc.jan2023.getData"/>
+      <class name="com.stc.jan2023.AssertionTest"/>
       <class name="com.stc.jan2023.FirstTest"/>
- <class name="com.stc.jan2023.Launchbrowser"/>
- <class name="com.stc.jan2023.Third"/>
+      <class name="com.stc.jan2023.StringRegularExpression"/>
+    <class name="com.stc.jan2023.Launchbrowser"/>
+      <class name="com.stc.jan2023.Launchbrowser"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
