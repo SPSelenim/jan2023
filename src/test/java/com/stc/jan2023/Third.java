@@ -7,5 +7,7 @@ public class Third {
   public void f() {
 
 	  System.out.println("T H I R D Test M A S T E R1- Other");
+	  System.out.println("T H I R D Test M A S T E R1 - External");
+
   }
 }
