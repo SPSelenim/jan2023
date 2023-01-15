@@ -11,6 +11,7 @@ public class Launchbrowser {
   @Test
   public void f() {
 	  System.out.println("***************L A U N C H B R O W S E R **********************");
+	  System.out.println("The thread ID for Firefox is "+ Thread.currentThread().getId());
  try
  {
 	 
