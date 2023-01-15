@@ -12,7 +12,7 @@
       <class name="com.stc.jan2023.StringRegularExpression"/>
       <class name="com.stc.jan2023.Launchbrowser"/>
       <class name="com.stc.jan2023.LastTestNG"/>
-      
+      <class name="com.stc.jan2023.Invocation"/>"
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
